@@ -1,5 +1,7 @@
+# Slack Notifications in MotionEye OS
+
 ### Intro
-This Python script sends notifications to a dedicated [Slack](https://slack.com "Slack: Be less busy") channel whenever movement is detected in MotionEye OS.
+This Python script sends notifications to a dedicated [Slack](https://slack.com "Slack: Be less busy") channel whenever movement is detected in [MotionEye OS](https://github.com/ccrisan/motioneyeos/releases).
 
 You will need to create a free Slack account over at https://slack.com/ and create an incoming webhook by visiting https://my.slack.com/services/new/incoming-webhook/. I recommend creating a dedicated Slack channel (i.e. #motioneyeos), but you can also add a custom icon and name to make it look the part too!                                                    
 
