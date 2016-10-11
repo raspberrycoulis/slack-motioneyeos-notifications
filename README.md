@@ -7,7 +7,7 @@ You will need to create a free Slack account over at https://slack.com/ and crea
 
 ### Customising your Slack notification:                                                         
 
-You can customise the message sent to Slack by editing the data string below. The string must be within curly brackets and start with ```{"text": }```. Links can be included between ```<>``` - i.e. ```<https://www.raspberrycoulis.co.uk>``` and text can be displayed using | so this ```<https://www.raspberrycoulis.co.uk|Raspberry Coulis>``` would be a link to [Raspberry Coulis](https://www.raspberrycoulis.co.uk "Raspberry Coulis: Raspberry Pi Projects, Tutorials & Reviews")!
+You can customise the message sent to Slack by editing the data string below. The string must be within curly brackets and start with ```{"text": }```. Links can be included between ```<>``` - i.e. ```<https://www.raspberrycoulis.co.uk>``` and text can be displayed using ```|``` so this ```<https://www.raspberrycoulis.co.uk|Raspberry Coulis>``` would be a link to [Raspberry Coulis](https://www.raspberrycoulis.co.uk "Raspberry Coulis: Raspberry Pi Projects, Tutorials & Reviews")!
 
 To emphasise text, place words you want in bold between two asterix - i.e. ```*this is bold!*```
 
