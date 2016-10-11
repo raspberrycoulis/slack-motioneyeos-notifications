@@ -25,7 +25,7 @@ Remember to enclose your custom text message within quotation marks ```" "``` th
 ```'{"text": "Motion Detected!\nView the *<http://IP.ADD.RE.SS|live stream>* now!"}'```
 
 # Installation
-MotionEye OS is not like Raspbian. You cannot use certain commands as you would normally (such as git clone), so we’ll have to create our Python script manually. We also do not need to use sudo as we’re already logged in as root by default. Our script needs to live in the data folder, so let’s go there and create slack.py using Nano:
+MotionEye OS is not like Raspbian. You cannot use certain commands as you would normally (such as git clone), so you’ll have to create our Python script manually. You also do not need to use sudo as you’re already logged in as root by default. This script needs to live in the data folder, so let’s go there and create ```slack.py``` using Nano:
 
 ```
 cd /data
@@ -46,7 +46,7 @@ python slack.py
 
 ## Setting up MotionEye OS
 
-Now that we have our script, we need to tell MotionEye OS to use it when it detects motion. To do this, log in and then go to the **Motion Notifications** menu and then turn on **Run A Command**. You then need to specify which command to run, which will be the Python script you just created. This will be **/data/slack.py**. Click **Apply** once done to confirm the changes.
+Now that you have this script, you need to tell MotionEye OS to use it when it detects motion. To do this, log in and then go to the **Motion Notifications** menu and then turn on **Run A Command**. You then need to specify which command to run, which will be the Python script you just created. This will be **/data/slack.py**. Click **Apply** once done to confirm the changes.
 
 ## Test it out!
 
