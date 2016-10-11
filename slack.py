@@ -34,7 +34,7 @@
 #                                                                                                   #
 #   '{"text": "Motion Detected!\nView the *<http://IP.ADD.RE.SS|live stream>* now!"}'               #
 
-import urllib, urllib2
+import urllib2
 
 url = 'INSERT-SLACK-INCOMING-WEBHOOK-URL-HERE'          # Add your Slack incoming Webhook URL here (starts https://hooks.slack.com)
 data = '{"text": "Motion Detected!\nView the *<http://IP.ADD.RE.SS|live stream>* now!"}'            # See above to customise message.
