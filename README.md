@@ -18,7 +18,7 @@ Hello
 World!
 ```
 
-Remember to enclose your custom text message within quotation marks though!
+Remember to enclose your custom text message within quotation marks ```" "``` though!
 
 ### This is my example:
 
